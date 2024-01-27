@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️ Ms. Zafar ❤️</title>
+
+    <script src="assets/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/estilo.css">
+
+    <link rel="preload" as="image" href="imagens/fundo2.gif">
+    <link rel="preload" as="image" href="imagens/fundo3.gif">
+    <link rel="preload" as="image" href="imagens/fundo4.jpeg">
+    <link rel="preload" as="image" href="imagens/fundo7.gif">
+    <link rel="preload" as="image" href="imagens/fundo9.gif">
+    <link rel="preload" as="image" href="imagens/fundo11.gif">
+    <link rel="preload" as="image" href="imagens/fundo12.avif">
+    <link rel="preload" as="image" href="imagens/couple1.gif">
+    <link rel="preload" as="image" href="imagens/couple2.gif">
+    <link rel="preload" as="image" href="imagens/couple3.gif">
+    <link rel="preload" as="audio" href="assets/musica.mp3">
+    <link rel="preload" as="audio" href="assets/INBOX.mp3">
+    <link rel="preload" as="audio" href="assets/Explodir.mp3">
+    <link rel="preload" as="audio" href="assets/Perfect.mp3">
+    <link rel="preload" as="audio" href="assets/Photograph.mp3">
+    <link rel="preload" as="audio" href="assets/Next To Me.mp3">
+
+</head>
+<body class="fundo1">
+
+    <div class="pop-up">
+        <h1 class="text-muted">Test Title</h1>
+        <div>Test Description</div>
+        <section class="text-center">
+            <button class="btn-azul" onclick="mostraPopUp(false)">Close</button>
+        </section>
+    </div>
+    
+    <div class="container d-flex justify-content-center">
+
+        <div id="tela1" class="tela tela-centro visivel">
+            <h1 class="text-muted">Hola, Love of my Life!!</h1>
+            <p>I hope you are having a great day..</p>
+            <button class="mudaTela btn-azul">Begin</button>
+
+            
+            <!-- <div class="mt-5">
+
+                <a href="#" class="opcoes">Ver opções</a>
+                <div class="invisivel opcoes">
+                    <p>Se quiser, você pode escolher começar de uma tela específica:</p>
+                    <button class="btn-rosa mudaTela" tela="">Início</button>
+                    <button class="btn-rosa">Mensagens</button>
+                    <button class="btn-rosa">Momentos marcantes</button>
+                    <button class="btn-rosa">O que você mudou em mim</button>
+                    <button class="btn-rosa">Nossa primeira conversa</button>
+                    <button class="btn-rosa">Memorial</button>
+                    <button class="btn-rosa">Declaração</button>
+                    <button class="btn-rosa">Final</button>
+                </div>
+
+            </div> -->
+           
+
+        </div>
+
+        <div id="tela2" class="tela" fundo="fundo1">
+            <p class="text-muted"><small>Before starting, Confirm:</small>
+                <br>
+            <strong>Do you know this beautiful woman?</strong></p>
+            <img src="imagens/t4.jpg" class="custom" width="150" alt="">
+            <br>
+
+            <button class="mudaTela btn-azul btn-block mt-5" animacao="null" tempoAnimacao="500">Yes</button>
+            <br>
+            <button class="btn-vermelho btn-block" onclick="alert('Then you should not be visiting this site. This site is only for MI AMOR. But you can see my another love instead, wanna see?');window.location.href='https://www.youtube.com/shorts/83qcLLLoY1Y'; " >No</button>
+
+        </div>
+
+        <div id="tela3" class="tela">
+            <p><strong>Are you sure?</strong><br> Take a good look at this:</p>
+            <img src="imagens/t3.jpg" class="custom" width="150" alt="">
+
+            <br>
+            <button class="mudaTela btn-block btn-azul">Yes</button>
+            <br>
+            <button class="btn-block btn-vermelho" onclick="alert('I see, what is going on here. Would you mind having a look at this?.');window.location.href='https://www.google.co.uk/search?q=jealous&sca_esv=600840769&source=hp&ei=tBywZc8Zh4yR1Q_YrJfADQ&iflsig=ANes7DEAAAAAZbAqxGWx3Xc2b0SqrqiX-gGZj54S9ZZB&ved=0ahUKEwjPw-aPqPSDAxUHRqQEHVjWBdgQ4dUDCA0&uact=5&oq=jealous&gs_lp=Egdnd3Mtd2l6IgdqZWFsb3VzMgoQABiABBhGGP8BMggQLhiABBixAzIIEAAYgAQYsQMyBRAAGIAEMggQABiABBixAzIIEAAYgAQYsQMyBRAAGIAEMgUQLhiABDIFEAAYgAQyBRAAGIAESNQ-UABYwDtwAHgAkAEAmAG7AqABlCKqAQgwLjE3LjQuMbgBA8gBAPgBAcICCxAAGIAEGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAgsQLhiABBixAxiDAcICDBAAGIAEGAoYRhj_AcICChAuGIAEGAoYsQPCAgoQABiABBgKGLEDwgIHEAAYgAQYCsICBxAuGIAEGAo&sclient=gws-wiz'; " >No, very strange</button>
+        </div>
+
+        <div id="tela4" class="tela">
+            <h2>Calm Down...</h2>
+
+            <img src="imagens/pls_stop.jpeg" class="custom mb-4" width="300" alt="">
+
+            <p>Is it <strong>My Zara</strong> who is accessing this page now?
+            </p>
+
+            <button class="mudaTela btn-azul">Yes, it's me!</button>
+            <button class="mudaTela btn-vermelho btn-block" onclick="alert('Have some shame!\n\nWell, I know that even if I take you to another page, you will come back here, so we will just move on to the next page anyways by giving you a term we commonly say as Beghairat.');" >No, I am one of her 'sister' who is accessing this site</button>
+        </div>
+
+        <div id="tela5" class="tela">
+            <p>When you click on the button our journey will begin..</p>
+            <hr>
+            <button class="mudaTela btn-azul" id="playButton">Continue</button>
+        </div>
+
+        <div id="tela6" class="invisivel letra2 temporizado tela-centro" fundo="fundo2" tempo="3000" >
+            <div tempo="4000">
+                <p>Well then, let's go...</p>
+            </div>
+            <div tempo="4000">
+                <p>I need to tell you some things...</p>
+            </div>
+            <div tempo="6000" final="true">
+                <p>So I made this for you because bola to mjhse kuch jaata nhi hai.. Lo Siento Mucho XD</p>
+            </div>
+        </div>
+
+        <div id="tela7" class="invisivel temporizado letra2 tela-centro" fundo="fundo3"  tempo="6000" >
+            <div tempo="5000">
+                <p>I can't measure in words the good you did for me.</p>
+            </div>
+            <div tempo="5000">
+                <p>You turned my life upside down.</p>
+            </div>
+            <div tempo="5000">
+                <p>Alot of things has been changed since the time you made me fall for you...</p>
+            </div>
+            <div tempo="9000">
+                <p>A guy with no interest of being with someone, now want to spend the rest of the life with someone and that someone is, you obviously. Could you believe it, How teri nazron ne dil ka kiya jo hashar, asar ye hua? XD.</p>
+            </div>
+            <div tempo="6000" final="true">
+                <p>But it was not easy. It is something very unique, one of the most brilliant feelings in the world.</p>
+            </div>
+        </div>
+
+        <div id="tela8" class="tela-centro tela" fundo="fundo1" tempo="6000">
+         
+            <p>Are you prepared for the biggest fagot you'll see in your life?</p>
+
+            <button class="mudaTela btn-rosa">Continue</button>
+
+        </div>
+
+        <div id="tela9" class="tela">
+         
+            <div class="text-start">
+                <div class="text-center">
+                    <h2 class="letra-vermelha">1. Conversations</h2>
+                    <img src="imagens/c1.jpg" alt="">
+                    <p class="letra2" style="font-size: 0.8em;"><strong>I was someone who had lost every bit of interest in everything when you came into my life.</strong></p>
+                </div>
+                <hr>
+                <p><strong class="letra-vermelha">You saved me</strong>, with your sweet, affectionate and bashful way. Always filling me with immense audios and random curiosities.</p>
+                <p><strong class="letra-vermelha">You </strong>made me believe in love again. Help me understand every day that love needs to be light, calm, charitable, kind, patient and welcoming. I could name a thousand things that have changed in me since you appeared in my life, but I'll just say that I've become a better man with every day I spend by your side.</p>
+                <p><strong class="letra-vermelha">Talking</strong> you has always been magical and light. It's very nice to talk with you.</p>
+                <img src="imagens/c2.jpg" alt="">
+                <p><strong class="letra-vermelha">Those minutes</strong> are too little to hear you talking. I still want to hear you chatter..</p>
+                <p><strong class="letra-vermelha">I cannot</strong>, even measure the time that will be enough to experience everything I want by your side..</p>
+
+            </div>
+
+            <button class="mudaTela btn-rosa mt-3">Continue</button>
+
+        </div>
+
+        <div id="tela10" class="tela">
+
+            <div class="text-start">
+                <div class="text-center">
+                    <h2 class="letra-vermelha">2. I fall in love with you every day</h2>
+                    <img src="imagens/t1.jpg" alt="">
+                    <p class="letra2" style="font-size: 0.8em;"><strong>You look beautiful like always my Queen..</strong></p>
+                </div>
+                <hr>
+                <p><span class="letra2 letra-vermelha" style="font-size: 1em;">I fall in love with you every day.</span><br>Whenever I look at you with a silly face, <strong class="text-muted">it's because I'm falling in love with you again.</strong></p>
+                <p>I'll tell you some of the times I fell in love with you::</p>
+                <ul>
+                    <li><strong class="letra-vermelha">The First time</strong> when I got injured and was in a very bad shape and you got worried that how long will it take and the amount of stress and care you had at that time just for me. That's where I knew for sure that I needed you to be <strong class="text-muted"> MINE </strong>. That was the first time I fell in love with you.</li>
+                    <li><strong class="letra-vermelha">The Endless Support </strong>, from you, whenever I was having a rough patch of my life, difficult and worst phases, no matter mentally, physically or emotionally. You were there, you never left, uplifted the mood and taught little things of life and to move on.<strong class="text-muted"> "The time you had me like either this pasandida aurat or Salman Bhai,nothing in between XD"</strong></li>
+                    <li><strong class="letra-vermelha">Our gossips on call</strong> for the first time after so many years where for a second I thought no way I'm picking up the phone and what will I say or talk to her and then we ended being hours, gossiping and laughing. Shy at first but I remember, it was one of the best feelings I experienced in my entire life.</li>
+                    <li><strong class="letra-vermelha">Well, the fourth time</strong> It happens every day that I wake up and realize that there's a woman I love and she love me too, more than I love her maybe. Life has much more meaning since <strong class="letra-vermelha">your arrival.</strong></li>
+                </ul>
+
+                <hr>
+
+                <div class="text-center">
+                    <p><strong class="letra-vermelha">I'm sure these moments will last forever.</strong></p>
+                </div>
+
+                
+
+            </div>
+
+            <button class="mudaTela btn-rosa mt-3">Continue</button>
+
+        </div>
+
+        <div id="tela11" class="tela">
+
+            <div class="text-left">
+                <div class="text-center">
+                    <h2 class="letra-vermelha">3. MY SAVIOUR!!</h2>
+                    <img src="imagens/t2.jpg" alt="">
+                    <p class="letra2" style="font-size: 0.8em;"><strong>It's been more or less 7 years and counting..</strong></p>    
+                </div>
+                <hr>
+                <p class="letra-vermelha"><strong>Going out with you from the first time would be so easy cuz you're so natural, you can't pretend.</strong></p>
+                <p>You brought back a desire to live that I didn't even remember existed. And I want everything I can live with you..</p>
+                <p>I felt completely numb, and it seemed like nothing else would make me feel something as beautiful as love. And<strong class="letra-vermelha"> you </strong>arrived to show me that it's okay to hold on someone's hand that you know the person can get you out from any trouble.</p>
+                <p>I see my entire destiny inside a person, and sometimes that scares me. But <strong class="letra-vermelha"> we </strong>choose ourselves every day, and I would choose you over millions of lives. Because one is not enough with you, love.</p>
+                <hr>
+                <p>At some point, I was ready to leave and never look back, there was no reason to stay here..</p>
+                <p>I was afraid of getting hurt but I asked you to come with me, and you accepted. You said, we will take care of the things with time, no fear..</p>
+                <p class="letra-vermelha"><strong>It's like anywhere is home as long as I'm with you..</strong></p>
+                <hr>
+                <p><strong class="letra-vermelha">You</strong> give me the strength to win one day after another in my tough times.</p>
+                <p><strong class="letra-vermelha">You</strong> give me the courage to face the problems. For this reason and for several things that I don't have the courage to tell you, <strong class="letra-vermelha">I will love you like an idiot does   .</strong> </p>
+                <hr>
+                <h3 class="letra-vermelha mt-5 mb-5">You are the best!!</h3>
+
+            </div>
+
+            <button class="mudaTela btn-rosa">Continue</button>
+
+        </div>
+
+        <div id="tela12" class="tela">
+            <h2 class="letra-vermelha">That was one of our first conversations</h2>
+            <p>It was on 12th of April 2017.</p>
+
+            <img src="imagens/ic.jpg" alt="">
+
+            <button class="mudaTela btn-rosa mt-3">Continue</button>
+        </div>
+
+        <div id="tela13" class="tela">
+            <h2 class="letra-vermelha">Our little world</h2>
+            <p>As you know, I am the most forgetful man in the world, but when it comes to you I always try to guard every move you make... Itna bhi pagal nhi hua abhi XD <strong class="letra-vermelha">I separated some moments that were important for us. But know that every moment by your side is unique.</strong></p>
+            <hr>
+            <p>Have a look around on some of these dates and remember with me how pure and beautiful our love is:</p>
+
+
+            <table class="calendario">
+                <span><strong class="text-muted">April 2017</strong></span>
+                <thead>
+                    <tr>
+                        <td>Sun</td>
+                        <td>Mon</td>
+                        <td>Tue</td>
+                        <td>Wed</td>
+                        <td>Thu</td>
+                        <td>Fri</td>
+                        <td>Sat</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td class="marcado" value="12/4">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>30</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="calendario">
+                <span><strong class="text-muted">May 2019</strong></span>
+                <thead>
+                    <tr>
+                        <td>Sun</td>
+                        <td>Mon</td>
+                        <td>Tue</td>
+                        <td>Wed</td>
+                        <td>Thu</td>
+                        <td>Fri</td>
+                        <td>Sat</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>13</td>
+                        <td class="marcado" value="14/5">14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="calendario">
+                <span><strong class="text-muted">June 2019</strong></span>
+                <thead>
+                    <tr>
+                        <td>Sun</td>
+                        <td>Mon</td>
+                        <td>Tue</td>
+                        <td>Wed</td>
+                        <td>Thu</td>
+                        <td>Fri</td>
+                        <td>Sat</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td class="marcado" value="09/06">9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td>30</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <table class="calendario">
+                <span><strong class="text-muted">July 2019</strong></span>
+                <thead>
+                    <tr>
+                        <td>Sun</td>
+                        <td>Mon</td>
+                        <td>Tue</td>
+                        <td>Wed</td>
+                        <td>Thu</td>
+                        <td>Fri</td>
+                        <td>Sat</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td class="marcado" value="12/07">12</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+
+
+            <button class="mudaTela btn-rosa mt-5">Continue</button>
+
+        </div>
+
+        <div id="tela14" class="invisivel temporizado letra2 tela-centro" fundo="fundo5" tempo="2000" >
+            <div tempo="4000">
+                <p>We plan so many things, we want so many things together...</p>
+            </div>
+            <div tempo="8000">
+                <p>And when the time comes, all the jigsaws will rightly be placed in the puzzle don't worry... But you just have to be patient because you'll see one of the most complex & most insane person on this planet earth, yeah he's here too, See...</p>
+            </div>
+            <div tempo="4000" >
+                <img src="imagens/me1.jpg" class="custom" width="500" alt="">
+            </div>
+            <div tempo="6000">
+                <p>But our story is no different than a typical bollywood movie script but it is what it is XD.</p>
+            </div>
+            <div tempo="4000">
+                <p>Something beautiful we are building together.</p>
+            </div>
+            <div tempo="4000">
+                <p>It's always heartwarming to even think...</p>
+            </div>
+            <div tempo="10000" final="true">
+                <p> And I always say how beautiful it is to share life with you, and every time I tell you this, my love, you can believe that I'm speaking with all my heart ❤️</p>
+            </div>
+        </div>
+
+        <div id="tela15" class="invisivel temporizado letra2 tela-centro" fundo="couple2"  tempo="4000" >
+            <div tempo="2000">
+                <p>Then...</p>
+            </div>
+            <div tempo="2000">
+                <p>There it goes...</p>
+            </div>
+            <div tempo="5000" >
+                <p>I need to ask something that no longer fits in my chest.</p>
+            </div>
+            <div tempo="7000" final="true">
+                <p>Maybe I know it already, but here and now looking into your eyes I will find the strength to ask.</p>
+            </div>
+        </div>
+
+        <div id="tela16" class="tela tela-centro">
+            <h2 class="text-muted">Ready?</h2>
+            <p>If you're crying (because you're a ROTU) then please take your time and then press the button XD.</p>
+
+            <button class="mudaTela btn-verde">I'm Ready</button>
+        </div>
+
+        <div id="tela17" class="invisivel temporizado letra2 tela-centro" fundo="fundo1"  tempo="1500" >
+            <div tempo="2000">
+                <p>So...</p>
+            </div>
+            <div tempo="6000" final="true">
+                <p>WILL YOU MARRY ME MY LOVE??...</p>
+            </div>
+        </div>
+
+        <div id="tela18" class="tela tela-centro" fundo="fundo12">
+            <h2 class="text-muted mb-5 mt-2">What was the answer?</h2>
+            <button class="mudaTela btn-block btn-azul">YES</button>
+            <br>
+            <button class="btn-block btn-vermelho" onclick="alert('You cannot say NO to me, just keep your NAKHRE to yourself and say YES plsss');">NO</button>
+        </div>
+
+        <div id="tela19" class="tela">
+            <h2 class="mb-5" style="color: #050101">So let's update our little world!</h2>
+            
+            <table class="calendario">
+                <span><strong class="text-muted">January 2024</strong></span>
+                <thead>
+                    <tr>
+                        <td>Sun</td>
+                        <td>Mon</td>
+                        <td>Tue</td>
+                        <td>Wed</td>
+                        <td>Thu</td>
+                        <td>Fri</td>
+                        <td>Sun</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td class="marcado" value="final">28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div id="tela20" class="invisivel temporizado tela-centro" fundo="fundo6" tempo="1500" >
+            <div tempo="2000" class="text-center">
+                <p class="mb-0" style="color: #f73434;">This is just for you to remind what it means to having you in my life and that I'll always love you like I loved you on the first day, Zara..</p>
+                <div class="text-center">
+                    <span style="font-size:0.4em; color: #555;">The end, but it's hard to see because there will never be an end to our love.</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    
+
+    <!--<script src="assets/js/bootstrap.min.js"></script>-->
+
+    <script src="assets/script.js"></script>
+    <!--<script src="assets/all.min.js"></script>-->
+
+</body>
+</html>
